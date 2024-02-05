@@ -20,7 +20,7 @@ var AppComponent = /** @class */ (function () {
             selector: 'app-root',
             standalone: true,
             imports: [home_component_1.HomeComponent, common_1.CommonModule, router_1.RouterModule],
-            template: "\n    <main>\n      <a [routerLink]=\"['/']\">\n        <header class=\"brand-name\">\n          <img class=\"brand-logo\" src=\"../assets/logo.svg\" alt=\"logo\" aria-hidden=\"true\">\n        </header>\n      </a>\n      <section class=\"content\">\n        <router-outlet></router-outlet>\n      </section>\n    </main>\n  ",
+            template: "\n    <main>\n      <a [routerLink]=\"['/']\">\n        <header class=\"brand-name\">\n          <img class=\"brand-logo\" src=\"./assets/logo.svg\" alt=\"logo\" aria-hidden=\"true\">\n        </header>\n      </a>\n      <section class=\"content\">\n        <router-outlet></router-outlet>\n      </section>\n    </main>\n  ",
             styleUrls: ['./app.component.css'],
         })
     ], AppComponent);
