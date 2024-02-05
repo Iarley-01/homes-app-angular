@@ -47,7 +47,7 @@ var core_1 = require("@angular/core");
 var HousingService = /** @class */ (function () {
     function HousingService() {
         //readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
-        this.url = 'http://localhost:3000/locations';
+        this.url = 'https://homes-app-rest-api.vercel.app/locations';
     }
     HousingService.prototype.getAllHousingLocations = function () {
         return __awaiter(this, void 0, Promise, function () {

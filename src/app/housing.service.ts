@@ -6,7 +6,7 @@ import { HousingLocation } from './housing-location';
 })
 export class HousingService {
   //readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
-  url: string = 'http://localhost:3000/locations';
+  url: string = 'https://homes-app-rest-api.vercel.app/locations';
   constructor() { }
   async getAllHousingLocations() : Promise<HousingLocation[]> {
     try {
