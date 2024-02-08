@@ -15,7 +15,7 @@ Este é um tutorial de como construir sua primeira aplicação Angular. <br/>
 <br>
 
 <p align="center">
-  <img alt="Homes App Angular Preview" src=".github/preview.jpg" width="100%">
+  <img alt="Homes App Angular Preview" src=".github/homes-app-landing-page.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
